@@ -33,3 +33,8 @@ What if the string is empty? Then the result should be empty object literal, {}.
         }
     }
 ```
+6. I don’t have much experience in development, I did a couple of *pet-projects*.
+Example:
+[https://github.com/Mathew2223/coffee-](coffee-site)
+7. Now I am studying at Slobodsky College. Completed the "Code-Future" course on the basics of *JavaScript*
+8. My English level is somewhere between: __A2 - B1__
