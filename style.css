@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.nameOfMe{
+    font-weight: 600;
+    font-family: Archangelsk;
+    font-size: 40px;
+    color: #f66f45;
+    line-height: 1;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease; 
+    margin-left: 1.5%;
+    margin-top: 1.5%;
+    cursor: pointer;
+    letter-spacing: 3px;
+    border-bottom: 2px solid black;
+}
+.nameOfMe:hover{
+    color: #5265f6; /* Меняем цвет текста */
+}
+.two{
+    font-weight: 600;
+    font-family: Archangelsk;
+    font-size: 24px;
+    margin-left: 1.5%;
+    margin-top: 1.5%;
+    letter-spacing: 3px;
+}
+.myStrength{
+    font-weight: 600;
+    font-family: Archangelsk;
+    font-size: 40px;
+    margin-left: 1.5%;
+    margin-top: 1.5%;
+    color: #8A2BE2;    
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.myStrength:before {
+    content: '';
+    display: block;
+    height: 1px; /* Высота линии */
+    background: #9400D3; /* Цвет линии */
+    width: 150px; /* Ширина линии до наведения */
+    margin: 0 auto 10px; /* Отступ с боков по центру и снизу */
+	transition: 1s; /* Время, за которое линия возвращается после наведения */
+}
+.myStrength:hover:before {
+    height: 2px; /* Высота линии */
+	transition: ease-out 1s; /* Время, за которое линия расширяется при наведении */
+    width: 100%;
+}
+.myStrength:after {
+    content: '';
+    display: block;
+    height: 1px; /* Высота линии */
+    background: #9400D3; /* Цвет линии */
+    width: 150px; /* Ширина линии до наведения */
+    margin: 10px auto 0; /* Отступ с боков по центру и сверху */
+	transition: 1s; /* Время, за которое линия возвращается после наведения */
+}
+.myStrength:hover:after {
+    height: 2px; /* Высота линии */
+    width: 100%; /* Ширина линии при наведении */
+	transition: ease-out 1s; /* Время, за которое линия расширяется при наведении */
+}
+.exampleCode{
+    width: 100%;
+    position: absolute;
+    text-decoration: none;
+    color: #800000;
+    font-weight: 600;
+    font-family: Archangelsk;
+    font-size: 40px;
+    letter-spacing: 3px;
+    margin-left: 1.5%;
+    margin-top: 1.5%;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease; 
+}
+.exampleCode::after{
+    position: absolute;
+    content: '';
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background: #708090;
+    left: 50%;
+    transition: 1s;
+    transform: translateX(-50%);
+}
+.exampleCode:hover:after {
+    bottom: -3px;
+    width: 100%;
+}
+.exampleCode:hover{
+    color: #6A5ACD;
+    transition: 0.3s ;
+}
+.withoutExe{
+    font-weight: 600;
+    font-family: Archangelsk;
+    font-size: 40px;
+    margin-left: 1.5%;
+    margin-top: 7%;
+    color: #4169E1;    
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.dude{
+    margin-left: 1.5%;
+    margin-top: 1%;
+    width: 400px;
+    border: 3px double black;
+    cursor: zoom-out;
+}
+.seven{
+    cursor: pointer;
+    font-weight: 600;
+    font-family: Archangelsk;
+    font-size: 40px;
+    margin-left: 1.5%;
+    margin-top: 1.5%;
+    color: #BA55D3;    
+    letter-spacing: 3px;
+}
+.languageS{
+    font-weight: 600;
+    font-family: Archangelsk;
+    font-size: 40px;
+    margin-left: 1.5%;
+    margin-top: 1%;
+    color: DarkViolet;    
+    letter-spacing: 3px;
+    border-top: 3px solid grey;
+    cursor: pointer;
+    margin-bottom: 10%;
+}
+.germanSKi{
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease; 
+}
+.germanSKi:hover{
+    transition: .3s;
+    color: Goldenrod;
+}
+.EngkishSKi{
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease; 
+}
+.EngkishSKi:hover{
+    transition: .3s;
+    color: red;
+}
