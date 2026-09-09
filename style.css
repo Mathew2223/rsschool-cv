@@ -252,3 +252,58 @@ footer img {
 footer img:hover {
   transform: scale(1.1);
 }
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .profile-picture {
+    width: 150px;
+    height: 150px;
+  }
+
+  .header-title {
+    font-size: 32px;
+  }
+
+  .header-subtitle {
+    font-size: 18px;
+  }
+
+  main {
+    grid-template-columns: 1fr;
+    margin: 20px;
+  }
+
+  .sidebar {
+    padding: 30px 20px;
+  }
+
+  .content {
+    padding: 30px 20px;
+  }
+
+  footer {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .footer-left,
+  .footer-center,
+  .footer-right {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .navbar ul {
+    gap: 15px;
+  }
+
+  .navbar a {
+    font-size: 14px;
+  }
+}
