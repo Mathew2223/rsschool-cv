@@ -227,7 +227,7 @@ footer {
   text-align: right;
   display: flex;
   justify-content: flex-end;
-  gap: 15px;
+  gap: 30px;
 }
 
 footer p {
@@ -242,7 +242,7 @@ footer a {
 }
 
 footer a:hover {
-  color: #faf7f4;
+  color: #c596f9;
 }
 
 footer img {
